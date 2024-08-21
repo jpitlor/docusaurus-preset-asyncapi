@@ -1,5 +1,5 @@
 {
-  "name": "docusaurus-plugin-asyncapi",
+  "name": "@jpitlor/docusaurus-plugin-asyncapi",
   "version": "1.0.0",
   "description": "AsyncAPI Plugin for DocusaurusV3",
   "main": "./dist/index.js",

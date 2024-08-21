@@ -1,5 +1,5 @@
 {
-  "name": "docusaurus-theme-asyncapi",
+  "name": "@jpitlor/docusaurus-theme-asyncapi",
   "version": "1.0.0",
   "description": "AsyncAPI Theme for DocusaurusV3",
   "main": "./dist/index.js",

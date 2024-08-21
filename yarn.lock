@@ -2491,6 +2491,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jpitlor/docusaurus-plugin-asyncapi@workspace:^, @jpitlor/docusaurus-plugin-asyncapi@workspace:packages/docusaurus-plugin-asyncapi":
+  version: 0.0.0-use.local
+  resolution: "@jpitlor/docusaurus-plugin-asyncapi@workspace:packages/docusaurus-plugin-asyncapi"
+  dependencies:
+    "@apidevtools/json-schema-ref-parser": "npm:^11.7.0"
+    "@asyncapi/parser": "npm:^3.2.2"
+    typescript: "npm:^5.5.4"
+    yaml: "npm:^2.5.0"
+  languageName: unknown
+  linkType: soft
+
+"@jpitlor/docusaurus-preset-asyncapi@workspace:^, @jpitlor/docusaurus-preset-asyncapi@workspace:packages/docusaurus-preset-asyncapi":
+  version: 0.0.0-use.local
+  resolution: "@jpitlor/docusaurus-preset-asyncapi@workspace:packages/docusaurus-preset-asyncapi"
+  dependencies:
+    "@jpitlor/docusaurus-plugin-asyncapi": "workspace:^"
+    "@jpitlor/docusaurus-theme-asyncapi": "workspace:^"
+    typescript: "npm:^5.5.4"
+  languageName: unknown
+  linkType: soft
+
+"@jpitlor/docusaurus-theme-asyncapi@workspace:^, @jpitlor/docusaurus-theme-asyncapi@workspace:packages/docusaurus-theme-asyncapi":
+  version: 0.0.0-use.local
+  resolution: "@jpitlor/docusaurus-theme-asyncapi@workspace:packages/docusaurus-theme-asyncapi"
+  dependencies:
+    "@asyncapi/react-component": "npm:2.2.0"
+    "@docusaurus/plugin-content-docs": "npm:^3.5.2"
+    "@docusaurus/theme-common": "npm:^3.5.2"
+    "@types/react": "npm:^18.3.4"
+    "@types/react-dom": "npm:^18"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:^5.5.4"
+  languageName: unknown
+  linkType: soft
+
 "@jridgewell/gen-mapping@npm:^0.3.0":
   version: 0.3.3
   resolution: "@jridgewell/gen-mapping@npm:0.3.3"
@@ -5784,42 +5820,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"docusaurus-plugin-asyncapi@workspace:^, docusaurus-plugin-asyncapi@workspace:packages/docusaurus-plugin-asyncapi":
-  version: 0.0.0-use.local
-  resolution: "docusaurus-plugin-asyncapi@workspace:packages/docusaurus-plugin-asyncapi"
-  dependencies:
-    "@apidevtools/json-schema-ref-parser": "npm:^11.7.0"
-    "@asyncapi/parser": "npm:^3.2.2"
-    typescript: "npm:^5.5.4"
-    yaml: "npm:^2.5.0"
-  languageName: unknown
-  linkType: soft
-
-"docusaurus-preset-asyncapi@workspace:^, docusaurus-preset-asyncapi@workspace:packages/docusaurus-preset-asyncapi":
-  version: 0.0.0-use.local
-  resolution: "docusaurus-preset-asyncapi@workspace:packages/docusaurus-preset-asyncapi"
-  dependencies:
-    docusaurus-plugin-asyncapi: "workspace:^"
-    docusaurus-theme-asyncapi: "workspace:^"
-    typescript: "npm:^5.5.4"
-  languageName: unknown
-  linkType: soft
-
-"docusaurus-theme-asyncapi@workspace:^, docusaurus-theme-asyncapi@workspace:packages/docusaurus-theme-asyncapi":
-  version: 0.0.0-use.local
-  resolution: "docusaurus-theme-asyncapi@workspace:packages/docusaurus-theme-asyncapi"
-  dependencies:
-    "@asyncapi/react-component": "npm:2.2.0"
-    "@docusaurus/plugin-content-docs": "npm:^3.5.2"
-    "@docusaurus/theme-common": "npm:^3.5.2"
-    "@types/react": "npm:^18.3.4"
-    "@types/react-dom": "npm:^18"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    typescript: "npm:^5.5.4"
-  languageName: unknown
-  linkType: soft
-
 "docusaurus3-asyncapi-example@workspace:.":
   version: 0.0.0-use.local
   resolution: "docusaurus3-asyncapi-example@workspace:."
@@ -5829,11 +5829,11 @@ __metadata:
     "@docusaurus/module-type-aliases": "npm:3.5.2"
     "@docusaurus/plugin-debug": "npm:^3.5.2"
     "@docusaurus/theme-classic": "npm:^3.5.2"
+    "@jpitlor/docusaurus-preset-asyncapi": "workspace:^"
     "@mdx-js/react": "npm:^3.0.1"
     "@tsconfig/docusaurus": "npm:^2.0.3"
     "@types/react": "npm:^18.3.4"
     "@types/react-dom": "npm:^18.3.0"
-    docusaurus-preset-asyncapi: "workspace:^"
     prism-react-renderer: "npm:^2.3.1"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"

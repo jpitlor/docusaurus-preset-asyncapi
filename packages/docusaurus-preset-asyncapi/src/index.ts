@@ -1,5 +1,5 @@
 import { LoadContext } from "@docusaurus/types"
-import type { PluginOptions } from "docusaurus-plugin-asyncapi";
+import type { PluginOptions } from "@jpitlor/docusaurus-plugin-asyncapi";
 import { ConfigInterface } from "@asyncapi/react-component"
 
 export interface PresetOptions {
@@ -30,7 +30,7 @@ export default function preset(
   return {
     themes: [
       [
-        require.resolve("docusaurus-theme-asyncapi"),
+        require.resolve("@jpitlor/docusaurus-theme-asyncapi"),
         {
           id: themeId,
         },
@@ -39,7 +39,7 @@ export default function preset(
     plugins: [
       ...specsArray.map((opts, index) =>
         ([
-          require.resolve("docusaurus-plugin-asyncapi"),
+          require.resolve("@jpitlor/docusaurus-plugin-asyncapi"),
           {
             ...opts,
             themeId,

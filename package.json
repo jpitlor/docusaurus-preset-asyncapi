@@ -8,16 +8,16 @@
   "scripts": {
     "start": "docusaurus start",
     "release": "yarn build:packages && changeset publish --no-git-tag",
-    "build:packages": "yarn workspaces --prod run build"
+    "build:packages": "yarn workspaces foreach -A  run build"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
     "@docusaurus/plugin-debug": "^3.5.2",
     "@docusaurus/theme-classic": "^3.5.2",
+    "@jpitlor/docusaurus-preset-asyncapi": "workspace:^",
     "@mdx-js/react": "^3.0.1",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
-    "docusaurus-preset-asyncapi": "workspace:^",
     "prism-react-renderer": "^2.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
