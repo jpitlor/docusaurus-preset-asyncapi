@@ -25,7 +25,6 @@ export default function plugin(
   return {
     name: "docusaurus-plugin-asyncapi",
     async loadContent() {
-      // TODO: Parse/validate spec.
       const specPath = path.resolve(spec);
 
       const bundled = await refParser.bundle(specPath, {
@@ -34,7 +33,6 @@ export default function plugin(
         },
       });
 
-      // TODO: Use parser to get title and description.
       let title, description;
       try {
         const metadata = await fs.readFile(specPath);

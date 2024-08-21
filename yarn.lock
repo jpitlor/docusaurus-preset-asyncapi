@@ -5820,9 +5820,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"docusaurus3-asyncapi@workspace:.":
+"docusaurus3-asyncapi-example@workspace:.":
   version: 0.0.0-use.local
-  resolution: "docusaurus3-asyncapi@workspace:."
+  resolution: "docusaurus3-asyncapi-example@workspace:."
   dependencies:
     "@changesets/cli": "npm:^2.27.7"
     "@docusaurus/core": "npm:3.5.2"
