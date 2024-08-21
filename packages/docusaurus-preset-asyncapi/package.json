@@ -1,6 +1,6 @@
 {
   "name": "@jpitlor/docusaurus-preset-asyncapi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "AsyncAPI preset for DocusaurusV3",
   "main": "dist/index.js",
   "files": [
@@ -20,7 +20,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@jpitlor/docusaurus-plugin-asyncapi": "1.0.4",
-    "@jpitlor/docusaurus-theme-asyncapi": "1.0.4"
+    "@jpitlor/docusaurus-plugin-asyncapi": "1.0.5",
+    "@jpitlor/docusaurus-theme-asyncapi": "1.0.5"
   }
 }

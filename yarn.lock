@@ -2491,7 +2491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jpitlor/docusaurus-plugin-asyncapi@npm:1.0.4, @jpitlor/docusaurus-plugin-asyncapi@workspace:packages/docusaurus-plugin-asyncapi":
+"@jpitlor/docusaurus-plugin-asyncapi@npm:1.0.5, @jpitlor/docusaurus-plugin-asyncapi@workspace:packages/docusaurus-plugin-asyncapi":
   version: 0.0.0-use.local
   resolution: "@jpitlor/docusaurus-plugin-asyncapi@workspace:packages/docusaurus-plugin-asyncapi"
   dependencies:
@@ -2505,13 +2505,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jpitlor/docusaurus-preset-asyncapi@workspace:packages/docusaurus-preset-asyncapi"
   dependencies:
-    "@jpitlor/docusaurus-plugin-asyncapi": "npm:1.0.4"
-    "@jpitlor/docusaurus-theme-asyncapi": "npm:1.0.4"
+    "@jpitlor/docusaurus-plugin-asyncapi": "npm:1.0.5"
+    "@jpitlor/docusaurus-theme-asyncapi": "npm:1.0.5"
     typescript: "npm:^5.5.4"
   languageName: unknown
   linkType: soft
 
-"@jpitlor/docusaurus-theme-asyncapi@npm:1.0.4, @jpitlor/docusaurus-theme-asyncapi@workspace:packages/docusaurus-theme-asyncapi":
+"@jpitlor/docusaurus-theme-asyncapi@npm:1.0.5, @jpitlor/docusaurus-theme-asyncapi@workspace:packages/docusaurus-theme-asyncapi":
   version: 0.0.0-use.local
   resolution: "@jpitlor/docusaurus-theme-asyncapi@workspace:packages/docusaurus-theme-asyncapi"
   dependencies:

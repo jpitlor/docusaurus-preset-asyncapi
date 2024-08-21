@@ -25,10 +25,13 @@ export default function AsyncApiDoc({ config, plugin }: AsyncApiDocProps) {
   const title = plugin.title || "Async API Docs";
   const description = plugin.description || "Async API Reference Docs for the API";
   const pluginData = usePluginData("docusaurus-plugin-asyncapi", plugin.id) as PluginData;
+  console.log("Rendering????")
   return (
     <Layout title={title} description={description}>
       <BrowserOnly>
         {() => {
+          console.log("AsyncAPI!!!")
+          console.log(pluginData);
           const AsyncApiComponent = require("@asyncapi/react-component/browser");
           return <AsyncApiComponent schema={pluginData.asyncapiSpec} config={config} />;
         }}

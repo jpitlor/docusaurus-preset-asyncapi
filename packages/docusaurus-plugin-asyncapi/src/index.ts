@@ -26,17 +26,21 @@ export default function plugin(
     name: "docusaurus-plugin-asyncapi",
     async loadContent() {
       const specPath = path.resolve(spec);
+      const specContent = await fs.readFile(specPath, 'utf-8');
 
-      const bundled = await refParser.bundle(specPath, {
-        dereference: {
-          circular: "ignore",
-        },
-      });
+      // TODO: Reincorporate @apidevtools/json-schema-ref-parser once I can figure out how to prevent it from
+      //       dereferencing things uneccessarily
+      // const bundled = await refParser.bundle(specPath, {
+      //   dereference: {
+      //     circular: "ignore",
+      //     // excludedPathMatcher: p => /#\/channels\/.*?\/messages/.test(p)
+      //     excludedPathMatcher: p => p.includes('channels')
+      //   },
+      // });
 
       let title, description;
       try {
-        const metadata = await fs.readFile(specPath);
-        const document = YAML.parse(metadata.toString());
+        const document = YAML.parse(specContent);
         title = document?.info?.title;
         description = document?.info?.description;
       } catch (err) {
@@ -46,7 +50,7 @@ export default function plugin(
       return {
         title,
         description,
-        asyncapiSpec: YAML.stringify(bundled),
+        asyncapiSpec: specContent,
       };
     },
     async contentLoaded({ content, actions }) {
