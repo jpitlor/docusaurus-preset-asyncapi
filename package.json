@@ -2,9 +2,7 @@
   "name": "docusaurus3-asyncapi",
   "version": "1.0.0",
   "workspaces": [
-    "packages/docusaurus-asyncapi",
-    "packages/docusaurus-plugin-asyncapi",
-    "packages/docusaurus-theme-asyncapi"
+    "packages/*"
   ],
   "scripts": {
     "docusaurus": "docusaurus",
@@ -22,12 +20,12 @@
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
+    "@docusaurus/plugin-debug": "^3.5.2",
+    "@docusaurus/theme-classic": "^3.5.2",
     "@mdx-js/react": "^3.0.1",
-    "clsx": "^2.1.1",
-    "docusaurus-asyncapi": "0.0.2",
-    "docusaurus-plugin-asyncapi": "0.0.2",
-    "docusaurus-theme-asyncapi": "0.0.2",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "docusaurus-preset-asyncapi": "workspace:^",
     "prism-react-renderer": "^2.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

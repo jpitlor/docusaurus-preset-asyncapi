@@ -23,8 +23,5 @@
     "@apidevtools/json-schema-ref-parser": "^11.7.0",
     "@asyncapi/parser": "^3.2.2",
     "yaml": "^2.5.0"
-  },
-  "peerDependencies": {
-    "@asyncapi/react-component": "1.0.0-next.48"
   }
 }

@@ -7,18 +7,18 @@ Async API for Docusaurus V2.
 ## Installation
 
 ```
-$ yarn install docusaurus-asyncapi
+$ yarn install docusaurus-preset-asyncapi
 ```
 
 ## Usage
 
 ```js
-// docusaurus.config.js
+// docusaurus.config.ts
 
 const config = {
   presets: [
     [
-      "docusaurus-asyncapi",
+      "docusaurus-preset-asyncapi",
       {
         specs: [
           {

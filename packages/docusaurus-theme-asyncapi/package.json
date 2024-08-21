@@ -24,15 +24,15 @@
   "author": "Matthew Tso <~@mtso.io>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18",
     "typescript": "^5.5.4"
-  },
-  "peerDependencies": {
-    "react": "^17.0.2"
   },
   "dependencies": {
     "@asyncapi/react-component": "2.2.0",
+    "@docusaurus/plugin-content-docs": "^3.5.2",
     "@docusaurus/theme-common": "^3.5.2",
-    "react-json-view": "^1.21.3",
-    "styled-components": "^6.1.12"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
