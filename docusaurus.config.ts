@@ -15,7 +15,7 @@ const config: Config = {
   },
   presets: [
     [
-      'docusaurus-preset-asyncapi',
+      '@jpitlor/docusaurus-preset-asyncapi',
       {
         specs: [
           {
