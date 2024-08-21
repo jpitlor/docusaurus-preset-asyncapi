@@ -17,7 +17,7 @@
   "author": "Matthew Tso <~@mtso.io>",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "docusaurus-plugin-asyncapi": "0.0.2",
