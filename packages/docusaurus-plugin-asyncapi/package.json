@@ -1,7 +1,7 @@
 {
   "name": "docusaurus-plugin-asyncapi",
-  "version": "0.0.2",
-  "description": "AyncAPI Plugin for DocusaurusV2",
+  "version": "1.0.0",
+  "description": "AsyncAPI Plugin for DocusaurusV3",
   "main": "./dist/index.js",
   "files": [
     "src",
@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mtso/docusaurus-asyncapi.git"
+    "url": "git+https://github.com/jpitlor/docusaurus-preset-asyncapi.git"
   },
-  "author": "Matthew Tso <~@mtso.io>",
+  "author": "Jordan Pitlor <jordan@pitlor.dev>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.5.4"

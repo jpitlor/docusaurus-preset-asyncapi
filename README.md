@@ -1,13 +1,11 @@
 # docusaurus-asyncapi
 
-[![npm version](https://badge.fury.io/js/docusaurus-asyncapi.svg)](https://badge.fury.io/js/docusaurus-asyncapi)
-
-Async API for Docusaurus V2.
+AsyncAPI integration for Docusaurus V3.
 
 ## Installation
 
-```
-$ yarn install docusaurus-preset-asyncapi
+```bash
+npm install docusaurus-preset-asyncapi
 ```
 
 ## Usage
@@ -22,12 +20,12 @@ const config = {
       {
         specs: [
           {
-            spec: "path/to/asyncapi.yml",
-            route: "/asyncapi",
+            spec: "./path/to/asyncapi.yml",
+            route: "/route/on/website",
           },
         ],
         // See defaults for ConfigInterface at:
-        // https://github.com/asyncapi/asyncapi-react/blob/42a349ad/library/src/config/default.ts#L7
+        // https://github.com/asyncapi/asyncapi-react/blob/master/library/src/config/default.ts
         config: {
           show: {
             sidebar: true,
@@ -35,23 +33,16 @@ const config = {
         },
       },
     ],
-    ...
   ],
-  ...
 }
 
 module.exports = config;
 ```
 
-### Development Requirements
-
-- yarn v1.22.19
-- node v16
-
 ### Local Development
 
-```
-$ yarn workspaces run build && yarn start
+```bash
+yarn workspaces run build && yarn start
 ```
 
 This builds the packages and starts the local docusaurus server.

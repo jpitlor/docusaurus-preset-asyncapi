@@ -33,6 +33,7 @@ const config: Config = {
   ],
   plugins: [
     '@docusaurus/theme-classic',
+    '@docusaurus/plugin-debug',
   ],
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
