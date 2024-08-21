@@ -1,4 +1,4 @@
-# Docusaurus AsyncAPI Theme
+# Docusaurus AsyncAPI Plugin
 
 This package is not meant to be used independently.
 
